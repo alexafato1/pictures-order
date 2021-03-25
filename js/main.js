@@ -332,7 +332,10 @@ const drop = () => {
    })
 }
 
-
+const btnStyle = document.querySelector('#btnStyle')
+btnStyle.addEventListener('click', function() {
+   btnStyle.remove()
+})
 
 
 window.addEventListener('DOMContentLoaded', () => {
