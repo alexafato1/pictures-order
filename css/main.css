@@ -340,6 +340,9 @@ select{
    width: 100%;
    
  }
+  section {
+    padding: 0;
+  }
 }
 @media  (max-width: 1199px) {
   /* стили для md-устройств */
