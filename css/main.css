@@ -297,24 +297,8 @@ select{
   animation-iteration-count: infinite;
 }
 
-.up img{
-  width: 50px;
-}
 
-@keyframes scale {
-  0% {
-      transform: rotate(180deg) scale(1.0);
-     
-  }
-  50% {
-      transform: rotate(180deg) scale(1.2);
-     
-  }
-  100% {
-    transform: rotate(180deg) scale(1.0);
-    
-}
-}
+
 
 
 
